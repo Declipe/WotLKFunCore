@@ -1,0 +1,63 @@
+# WotLKFunCore is a custom fun server built for
+# World of Warcarft game build 3.3.5b. (12345)
+#
+# Copyright (C) 2008-2016 JustACore.
+#
+# ==== Start of GNU GPL ====
+#
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# ==== End of GNU GPL ====
+#
+
+set(scripts_STAT_SRCS
+  ${scripts_STAT_SRCS}
+Custom/beastmaster.cpp
+Custom/telenpc.cpp
+Custom/resetduel.cpp
+Custom/killsystem.cpp
+Custom/arenavendor.cpp
+Custom/OnScripts/onlogin.cpp
+Custom/OnScripts/OnEnterMap.cpp
+Custom/huntervendor.cpp
+Custom/trainerspawn.cpp
+Custom/votenpc.cpp
+Custom/donornpc.cpp
+Custom/spawntele.cpp
+Custom/OnScripts/onpvpkill.cpp
+Custom/tokenconverter.cpp
+Custom/warmage.cpp
+Custom/viptitle.cpp
+Custom/graveyard.cpp
+Custom/battleground_spawner.cpp
+Custom/instances.cpp
+Custom/OnScripts/OnCreatureKill.cpp
+Custom/PlayerHousing/player_housing.cpp
+Custom/PlayerHousing/player_housing_npc.cpp
+Custom/zombie_event.cpp
+Custom/Arena_Ranks.cpp
+Custom/BountyHunter/BountyHunterNPC.cpp
+Custom/BountyHunter/BountyHunter.h
+Custom/vendor_general.cpp
+Custom/transfer.cpp
+Custom/gurubashi_theme.cpp
+Custom/PlayerHousing/player_mount.cpp
+Custom/ArenaGambler/ArenaGambler.cpp
+Custom/ArenaGambler/ArenaGamblingSystem.cpp
+Custom/ArenaGambler/ArenaGamblingSystem.h
+Custom/Transmogrify/Transmogrification.cpp
+Custom/Transmogrify/Transmogrification.h
+Custom/TowerDefense/TowerDefense.cpp
+Custom/TowerDefense/TowerDefense.h
+Custom/TowerDefense/TowerDefenseInstance.cpp
+Custom/Reforging.cpp
+Custom/Professions_NPC.cpp
+)
+
+message("  -> Prepared: Custom")

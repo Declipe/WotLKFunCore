@@ -1,0 +1,37 @@
+/* WotLKFunCore is a custom fun server built for
+* World of Warcarft game build 3.3.5b. (12345)
+*
+* Copyright (C) 2008-2016 JustACore.
+* Copyright (C) 2008-2016 TrinityCore.
+* Copyright (C) 2006-2016 ScriptDev2.
+*
+* ==== Start of GNU GPL ====
+*
+* This file is free software; as a special exception the author gives
+* unlimited permission to copy and/or distribute it, with or without
+* modifications, as long as this notice is preserved.
+*
+* This program is distributed in the hope that it will be useful, but
+* WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+* implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*
+* ==== End of GNU GPL ====
+*/
+
+#ifndef DEF_SCARLET_M
+#define DEF_SCARLET_M
+
+enum eEnums
+{
+    TYPE_MOGRAINE_AND_WHITE_EVENT   = 1,
+
+    DATA_MOGRAINE                   = 2,
+    DATA_WHITEMANE                  = 3,
+    DATA_DOOR_WHITEMANE             = 4,
+
+    DATA_HORSEMAN_EVENT             = 5,
+    GAMEOBJECT_PUMPKIN_SHRINE       = 6,
+
+    DATA_VORREL                     = 7
+};
+#endif
